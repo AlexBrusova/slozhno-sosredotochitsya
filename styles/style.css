@@ -407,7 +407,7 @@
 
 /* laptop */
 
-/* @media (1024px <= width) {
+@media (1024px <= width) {
   .header__theme-menu {
     margin-top: 20px;
     margin-left: 10px;
@@ -441,11 +441,34 @@
     gap: 20px
   }
 
+  .section-block .section-text {
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .section-block .section-text-block {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 315px;
+  }
+
   .section-block .section-title{
     margin: 0 689px 20px 0;
   }
 
   .footer-title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  } */
+    margin-block-start: 0;
+  }
+
+  .decorated-zone-footer::after {
+    top: 2.5%;
+    right: 1.9%;
+  }
+
+  .decorated-zone-footer::before {
+    bottom: 2.5%;
+    left: 1.9%;
+  }
 }
