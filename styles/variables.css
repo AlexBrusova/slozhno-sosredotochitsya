@@ -13,18 +13,5 @@
   --font-accent-weight: 700;
   --text-on-accent-bg-color: #000028;
   --color-on-hover: #FF007066;
-}
-
-@media (prefers-color-scheme: light) {
-  .page .theme_light  {
-    --accent-color: #FF8DCB;
-    --bg-color: #fff1f7;
-    --text-color: #353430;
-    --text-on-accent-bg-color: #353430;
-    --color-on-hover: #32312D66;
-  }
-
-  .theme_light .page {
-    background-image: url(../images/cover-image-light.png);
-  }
+  --title-text-color: #DB00FF;
 }

@@ -15,7 +15,6 @@
   font-weight: var(--font-weight, 400);
   line-height: var(--line-height, 23.4px);
 }
-
 /* Стили  header*/
 
 .header {
@@ -74,7 +73,7 @@
 
 .header__title {
   font-size:clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  color: #DB00FF;
+  color: var(--title-text-color);
   text-shadow: 4px 4px 0 var(--accent-color);
   line-height: 95.7px;
   font-weight: 700;
@@ -234,7 +233,7 @@
 
 .footer-title {
   font-size:clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  color: #DB00FF;
+  color: var(--title-text-color);
   text-shadow: 2px 2px 0 var(--accent-color);
   line-height: 95.7px;
   font-weight: 700;

@@ -4,17 +4,46 @@
   переключая тему
 */
 
-.page .theme_light {
+:root .theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
   --accent-color: #FF8DCB;
   --bg-color: #fff1f7;
-  --bg-image: url(../images/cover-image-light.png);
   --text-color: #353430;
   --text-on-accent-bg-color: #353430;
   --color-on-hover: #32312D66;
+  --title-text-color: #FFC2E6;
+  background-image: url(../images/cover-image-light.png);
+
+  .decoration-zone__element {
+    display: none;
+  }
+
+  .section-title {
+    color: var(--text-on-accent-bg-color);
+  }
+  
+  .header__title {
+    text-shadow: 4px 4px 0 #ff0070;
+  }
+  
+  .decorated-links {
+    text-shadow: 1px 2px 0 #ff0070;
+  }
+  
+  .decorated-links:hover {
+    text-shadow: 1px 2px 0 #ff0070;
+  }
+  
+  .decorated-links:focus-visible {
+    text-shadow: 1px 2px 0 #ff0070;
+  }
+  
+  .footer-title {
+    text-shadow: 4px 4px 0 #ff0070;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -26,7 +55,35 @@
     --color-on-hover: #32312D66;
   }
 
-  .theme_light .page {
+  .section-title {
+    color: var(--text-on-accent-bg-color);
+  }
+
+  .page {
     background-image: url(../images/cover-image-light.png);
+  }
+
+  .decoration-zone__element {
+    display: none;
+  }
+  
+  .header__title {
+    text-shadow: 4px 4px 0 #ff0070;
+  }
+  
+  .decorated-links {
+    text-shadow: 1px 2px 0 #ff0070;
+  }
+  
+  .decorated-links:hover {
+    text-shadow: 1px 2px 0 #ff0070;
+  }
+  
+  .decorated-links:focus-visible {
+    text-shadow: 1px 2px 0 #ff0070;
+  }
+
+  .footer-title {
+    text-shadow: 4px 4px 0 #ff0070;
   }
 }
