@@ -4,7 +4,7 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   min-inline-size: 320px;
   background-color: var(--bg-color, #00183F);
-  background-image: var(--bg-image);
+  background-image: url(../images/cover-image-dark.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -113,7 +113,7 @@
   border: 1px solid transparent;
 }
 
-.header__theme-menu-button:active {
+.header__theme-menu-button_active {
   border: 1px solid var(--accent-color);
   pointer-events: none;
 }
@@ -129,11 +129,6 @@
 
 .header__theme-menu-button:focus-visible {
   border-bottom: 1px solid (--accent-color);
-}
-
-.header__theme-menu-button_active {
-  border: 1px solid var(--accent-color);
-  pointer-events: none;
 }
 
 /* Main */
