@@ -10,80 +10,40 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --accent-color: #FF8DCB;
+  --border-color: #353430;
+  --menu-button-color: #353430;
+  --section-title-color: #353430;
   --bg-color: #fff1f7;
   --text-color: #353430;
   --text-on-accent-bg-color: #353430;
   --color-on-hover: #32312D66;
   --title-text-color: #FFC2E6;
-  background-image: url(../images/cover-image-light.png);
+  --bg-image: url(../images/cover-image-light.png);
+  --shadow-color: #ff0070;
+  --links-shadow-color: #FF8DCB;
 
   .decoration-zone__element {
     display: none;
-  }
-
-  .section-title {
-    color: var(--text-on-accent-bg-color);
-  }
-  
-  .header__title {
-    text-shadow: 4px 4px 0 #ff0070;
-  }
-  
-  .decorated-links {
-    text-shadow: 1px 2px 0 #ff0070;
-  }
-  
-  .decorated-links:hover {
-    text-shadow: 1px 2px 0 #ff0070;
-  }
-  
-  .decorated-links:focus-visible {
-    text-shadow: 1px 2px 0 #ff0070;
-  }
-  
-  .footer-title {
-    text-shadow: 4px 4px 0 #ff0070;
   }
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #FF8DCB;
+    --border-color: #353430;
+    --menu-button-color: #353430;
+    --section-title-color: #353430;
     --bg-color: #fff1f7;
     --text-color: #353430;
     --text-on-accent-bg-color: #353430;
     --color-on-hover: #32312D66;
-  }
-
-  .section-title {
-    color: var(--text-on-accent-bg-color);
-  }
-
-  .page {
-    background-image: url(../images/cover-image-light.png);
+    --title-text-color: #FFC2E6;
+    --bg-image: url(../images/cover-image-light.png);
+    --shadow-color: #ff0070;
+    --links-shadow-color: #FF8DCB;
   }
 
   .decoration-zone__element {
     display: none;
-  }
-  
-  .header__title {
-    text-shadow: 4px 4px 0 #ff0070;
-  }
-  
-  .decorated-links {
-    text-shadow: 1px 2px 0 #ff0070;
-  }
-  
-  .decorated-links:hover {
-    text-shadow: 1px 2px 0 #ff0070;
-  }
-  
-  .decorated-links:focus-visible {
-    text-shadow: 1px 2px 0 #ff0070;
-  }
-
-  .footer-title {
-    text-shadow: 4px 4px 0 #ff0070;
   }
 }
